@@ -36,16 +36,13 @@ h1{
   }
  
   .landscape{
-  
     object-fit: scale-down;
     border-color: rgb(34, 36, 35);
     box-shadow: 5px 10px 10px 10px;
     margin-bottom: 2rem;
-    border-width: 5px;
-    padding: 2rem;
     border-style: solid;
     background-color: rgb(204, 216, 216);
-    border-radius: .5rem;
+   
     position: relative;
     min-width: 15rem;
     max-width: 30rem;
