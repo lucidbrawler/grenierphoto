@@ -10,6 +10,7 @@ const Landing = () => {
    
     <div className=''>
   <Hero/>
+  
   <Banner/>
   <ContactMe/>
     </div>

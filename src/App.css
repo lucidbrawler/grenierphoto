@@ -75,6 +75,13 @@ h1{
 
     margin-bottom: 1rem;
 }
+.bannerText{
+  background-color: bisque;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
 .ContactMe{
   height: 20rem;
   background-color: rgb(255, 255, 255);
