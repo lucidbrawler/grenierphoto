@@ -22,8 +22,9 @@ const Hero = () => {
           
            
             </section>
+            <div className='TreeContainer'>
             <img className='landscape'  src={christmasGold} alt=''/>
-         
+            </div>
     </div>
     </div>
   )
