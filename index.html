@@ -20,6 +20,27 @@
       document.onmousedown = click;
       document.oncontextmenu = click;
       </script>
+      <script>
+        document.addEventListener('keyup',(e)=>{
+          navigator.clipboard.writeText('');
+          alert('Sceenshot Disabled');
+        });
+      </script>
+   
+      <style>
+         
+        /* We are stopping user from 
+        printing our webpage */
+        @media print {
+ 
+            html,
+            body {
+ 
+                /* Hide the whole page */
+                display: none;
+            }
+        }
+    </style>
   </head>
   <body>
     <div id="root"></div>
