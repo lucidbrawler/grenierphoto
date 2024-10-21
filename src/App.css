@@ -62,7 +62,6 @@ h1{
   display: flex;
   justify-content: space-around;
   background-color: black;
-  
 }
 .BannerImg{
     flex: 1 0 ;
@@ -83,8 +82,39 @@ h1{
   color: rgb(0, 0, 0);
 }
 .ContactMe{
+color: white;
   height: 20rem;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(26, 25, 25);
+}
+.GalleryLinks {
+  border-radius: 50%;
+  width: 13rem;
+  height: 13rem;
+  border-style: solid;
+  background: "yellow";
+  display: "block"
+}
+.GalleryTitle{
+  font-family: 'Montserrat';
+
+}
+.Galleries{
+  font-size: 2rem;
+  padding: 1rem;
+}
+@media screen and (max-width: 1024px) {
+  .Galleries{
+    line-height: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
   @media screen and (max-width: 1024px) {
     .flex{
