@@ -49,12 +49,19 @@ a{
    object-fit: scale-down;
     border-radius: 50%;
   max-width:  15rem;
-  max-height: 15rem;
-
-
-  
+  max-height: 15rem;  
   }
- 
+  a{
+    cursor: pointer;
+  }
+ .Grid-wrapper{
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+ }
   .landscape{
     object-fit: scale-down;
     border-color: rgb(34, 36, 35);

@@ -19,7 +19,7 @@ const Banner = () => {
         <a className='GalleryHeaders'><flag className='GalleryHeaders1'>Composite</flag><br/>
         <img className='BannerImg' src={Sunprint}/>
         </a>
-        <a className='GalleryHeaders'><flag className='GalleryHeaders1'>Eagles</flag><br/>
+        <a href='./EagleGallery' className='GalleryHeaders'><flag className='GalleryHeaders1'>Eagles</flag><br/>
         <img className='BannerImg' src={GreatEagle}/>
         </a>
         <a className='GalleryHeaders'><flag className='GalleryHeaders1'>Seascapes</flag><br/>
