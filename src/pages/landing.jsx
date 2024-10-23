@@ -13,7 +13,7 @@ const Landing = () => {
   <Hero/>
   
   <Banner/>
-  <Gallaries/>
+ 
   <ContactMe/>
     </div>
    
