@@ -46,15 +46,18 @@ a{
     box-shadow: 0px 0px 12px 2px ;
     margin-bottom: 1rem;
     padding: 1rem;
+    margin-left: 15px;
    object-fit: scale-down;
     border-radius: 50%;
   max-width:  15rem;
   max-height: 15rem;  
   }
   .navlinks{
-color: black;
+    text-decoration: none;
+color: rgb(255, 255, 255);
   }
   a{
+    text-decoration: none;
     cursor: pointer;
   }
  .Grid-wrapper{
@@ -111,13 +114,26 @@ font-size: 2rem;
     margin-bottom: 1rem;
     max-width: 100%;
 }
+.backgroundimage{
+  background-color: rgba(255, 255, 255, 0.774);
+  background-blend-mode: lighten;
+  color: #000000;
+  background-repeat: no-repeat;
+  background-size: 25rem 40rem;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+);
 
+  object-fit: contain;
+  width: 100%;
+}
 .BannerImg1{
   max-width: 100%;
   flex: 1 0 ;
     flex-shrink: 0;
     flex-grow: 1;
-   
     padding-top: 0;
     
   object-fit: scale-down;

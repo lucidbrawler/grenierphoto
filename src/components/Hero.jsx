@@ -14,8 +14,8 @@ const Hero = () => {
             
          <section className='flexcol'>
          <img className='portrait ' src={headshot} alt=''/>
-        <h3>About Me</h3>
-         <p className='portraitBio'>I have been an artist my entire life. I was driven to teach myself to play piano at an early age 
+        
+         <p className='portraitBio'> <h3>About Me</h3>I have been an artist my entire life. I was driven to teach myself to play piano at an early age 
             and become a professional pianist. This was a true gift. I’ve painted, written songs, and have made some of the best pizza around the world. 
 
  

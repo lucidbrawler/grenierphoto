@@ -30,7 +30,7 @@ function OffcanvasExample() {
              
                   <a  href={"/eaglegallery"}><h3 className='navlinks'>Eagles</h3></a>
               
-                  <Nav.Link as={Link} to={"/contactme"}><h3  className="">Contact Me</h3></Nav.Link>
+                  <a href={"/contactme"}><h3  className="navlinks">Contact Me</h3></a>
              
                 </Nav>
                
