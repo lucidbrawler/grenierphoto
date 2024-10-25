@@ -8,7 +8,7 @@ import Sunprint from '../jodyimages/sunprint.jpg';
 const Banner = () => {
   return (
     <div>
-    <h1 className='GalleryTitle'>Galleries</h1>
+   
     <div className='Banner'>
       <a className='GalleryHeaders'><flag className='GalleryHeaders1'>Wildlife</flag><br/>
         <img className='BannerImg' src={GoodFox}/>
