@@ -28,7 +28,7 @@ function OffcanvasExample() {
              
                 <Nav className="justify-content-end flex-grow-1 pe-3 ">
              
-                  <Nav.Link as={Link} to={"/EagleGallery"}><h3  className="logohome2 logo1left">Eagles</h3></Nav.Link>
+                  <a  href={"/eaglegallery"}><h3 className='navlinks'>Eagles</h3></a>
               
                   <Nav.Link as={Link} to={"/contactme"}><h3  className="">Contact Me</h3></Nav.Link>
              

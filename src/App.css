@@ -51,6 +51,9 @@ a{
   max-width:  15rem;
   max-height: 15rem;  
   }
+  .navlinks{
+color: black;
+  }
   a{
     cursor: pointer;
   }
