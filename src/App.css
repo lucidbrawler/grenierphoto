@@ -38,6 +38,9 @@ a{
   display: flex;
   flex-direction: column;
 }
+.Collapsible__trigger{
+font-size: 3rem;
+}
 .flex{
   display: flex;
   justify-content: space-around;
@@ -51,6 +54,7 @@ a{
     border-radius: 50%;
   max-width:  15rem;
   max-height: 15rem;  
+  margin-top: 3rem;
   }
   .navlinks{
     text-decoration: none;

@@ -2,10 +2,12 @@ import React from 'react'
 import headshot from '../jodyimages/faceshot.jpeg';
 import christmasGold from '../lowrezimages/ChristmasGold.jpg'
 import '../App.css';
+import { LuArrowDownSquare } from "react-icons/lu";
 
 import Collapsible from 'react-collapsible';
 
 const Hero = () => {
+const iconarrow =  <LuArrowDownSquare />;
   return (
     <div>
  
@@ -14,8 +16,10 @@ const Hero = () => {
             
          <section className='flexcol'>
          <img className='portrait ' src={headshot} alt=''/>
+         <h3></h3>
         
-         <p className='portraitBio'> <h3>About Me</h3>I have been an artist my entire life. I was driven to teach myself to play piano at an early age 
+<Collapsible trigger={<div>About me <LuArrowDownSquare /></div>}>
+         <p className='portraitBio'> I have been an artist my entire life. I was driven to teach myself to play piano at an early age 
             and become a professional pianist. This was a true gift. I’ve painted, written songs, and have made some of the best pizza around the world. 
 
  
@@ -29,8 +33,7 @@ const Hero = () => {
         I dove deep into learning everything I could about cameras and composition, I’m still learning. 
         After years of shooting photographs I found a deep understanding that it’s not only satisfying but hard work.</p>
    
-        
-           
+        </Collapsible>
             </section>
             <div className='TreeContainer'>
             <img className='landscape'  src={christmasGold} alt=''/>
