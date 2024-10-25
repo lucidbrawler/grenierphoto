@@ -20,17 +20,16 @@ function OffcanvasExample() {
               placement="end"
             >
               <Offcanvas.Header  className='ocheader'  closeButton>
-             Grenier Photography
+                Jody Grenier Art
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>    
                 </Offcanvas.Title> 
               </Offcanvas.Header>
               <Offcanvas.Body className='backgroundimage'>
              
                 <Nav className="justify-content-end flex-grow-1 pe-3 ">
-                 <NavDropdown  title='Galleries'>
+             
                   <Nav.Link as={Link} to={"/EagleGallery"}><h3  className="logohome2 logo1left">Eagles</h3></Nav.Link>
-                  </NavDropdown>
-                  
+              
                   <Nav.Link as={Link} to={"/contactme"}><h3  className="">Contact Me</h3></Nav.Link>
              
                 </Nav>
