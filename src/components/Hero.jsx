@@ -18,7 +18,7 @@ const iconarrow =  <LuArrowDownSquare />;
          <img className='portrait ' src={headshot} alt=''/>
          <h3></h3>
         
-<Collapsible trigger={<div className='aboutme'>About me <LuArrowDownSquare /></div>}>
+<div className='aboutme'>About me <LuArrowDownSquare /></div>
          <p className='portraitBio'> I have been an artist my entire life. I was driven to teach myself to play piano at an early age 
             and become a professional pianist. This was a true gift. I’ve painted, written songs, and have made some of the best pizza around the world. 
 
@@ -33,7 +33,7 @@ const iconarrow =  <LuArrowDownSquare />;
         I dove deep into learning everything I could about cameras and composition, I’m still learning. 
         After years of shooting photographs I found a deep understanding that it’s not only satisfying but hard work.</p>
    
-        </Collapsible>
+        
             </section>
             <div className='TreeContainer'>
             <img className='landscape'  src={christmasGold} alt=''/>

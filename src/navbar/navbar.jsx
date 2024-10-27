@@ -1,9 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from "react-router-dom";
+
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { NavDropdown } from 'react-bootstrap';
+
 
 
 function OffcanvasExample() {
@@ -29,6 +29,9 @@ function OffcanvasExample() {
                 <Nav className="justify-content-end flex-grow-1 pe-3 ">
              
                   <a  href={"/eaglegallery"}><h3 className='navlinks'>Eagles</h3></a>
+                  <a  href={"/SyracuseGallery"}><h3 className='navlinks'>Syracuse</h3></a>
+                  <a  href={"/Wildlifegallery"}><h3 className='navlinks'>Wildlife</h3></a>
+                  <a  href={"/SeascapesGallery"}><h3 className='navlinks'>Seascapes</h3></a>
               
                   <a href={"/contactme"}><h3  className="navlinks">Contact Me</h3></a>
              
