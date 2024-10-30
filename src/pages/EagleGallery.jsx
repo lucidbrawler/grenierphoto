@@ -19,6 +19,8 @@ const EagleGallery = () => {
    
         <Nav.Link href='https://buy.stripe.com/dR6dTrdDraohaQgaEI'>
         <img className='' src={GreatEagle}/>
+   
+       
         </Nav.Link>
      
         <Nav.Link>

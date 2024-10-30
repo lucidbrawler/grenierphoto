@@ -11,6 +11,9 @@ h1{
   font-size: 6vw;
   
 }
+.stickytop{
+  background-color: rgb(235, 225, 225);
+}
 .galleryimg{
   box-shadow: 5px 10px 10px 5px;;
   display: block;
@@ -158,7 +161,13 @@ color: rgb(255, 255, 255);
     padding: 1rem;
     max-width: 35rem;
   }
+  .NavbarTitle{
+    font-size: 2rem;
+    height: 3rem;
+    font-family: Bona Nova SC;
+  }
   .portraitBio{
+    font-family: Bona Nova SC;
     position: relative;
     bottom: 10;
     padding: 1rem;
