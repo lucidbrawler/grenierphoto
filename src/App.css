@@ -12,7 +12,11 @@ h1{
   
 }
 .stickytop{
-  background-color: rgb(235, 225, 225);
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(126, 120, 120) 0%,
+    rgb(197, 189, 189) 99.4%
+);
 }
 .galleryimg{
   box-shadow: 5px 10px 10px 5px;;
@@ -54,6 +58,8 @@ a{
   font-size: 2.5rem;
 }
 .aboutme{
+  margin-right: 8rem;
+  border-bottom: dotted;
   color: cadetblue;
   margin-left: 2rem;
   font-size: 1.5rem;
