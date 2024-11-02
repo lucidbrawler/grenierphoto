@@ -17,7 +17,7 @@ const EagleGallery = () => {
    
     <div >
    
-        <Nav.Link href='https://buy.stripe.com/dR6dTrdDraohaQgaEI'>
+        <Nav.Link href='/GallerySlider'>
         <img className='' src={GreatEagle}/>
    
        

@@ -11,11 +11,45 @@ h1{
   font-size: 6vw;
   
 }
+.button{
+  margin-right: .5rem;
+  margin-left: .5rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+align-items: center;
+  height: 3rem;
+}
+.archives{
+  height: screen;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+select{margin: 1rem;}
+.printOptions{
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.archives1{
+  box-shadow: 5px 10px 10px 5px;;
+  max-width: 100%;
+  object-fit: contain;
+ 
+ width: 20rem;
+}
+
+
 .stickytop{
   background: radial-gradient(
     circle at 24.1% 68.8%,
-    rgb(126, 120, 120) 0%,
-    rgb(197, 189, 189) 99.4%
+    rgb(197, 189, 189) 0%,
+    rgb(126, 120, 120) 99.4%
+   
 );
 }
 .galleryimg{
@@ -119,6 +153,9 @@ color: rgb(255, 255, 255);
            gap: 1.5rem;
            }}
 /*//////////treats end css /////////*/
+.Slides{
+  padding: 1rem;
+ }
  .Grid-wrapper{
  margin-top: 1rem;
  text-align: center;
@@ -129,7 +166,7 @@ color: rgb(255, 255, 255);
   gap: 1.5rem;
   padding: 1rem;
   }
-  
+ 
   .Grid-wrapper img {
     
     box-shadow: 5px 10px 10px 5px;;
@@ -137,6 +174,25 @@ color: rgb(255, 255, 255);
     width: 100%;
     margin-top: 1.25rem;
      }
+     .Grid-wrapper2{
+      margin-top: 1rem;
+      text-align: center;
+      }
+      .Grid-wrapper2 > div {
+       margin-top: 1rem;
+      columns: 3;
+       gap: 1.5rem;
+       padding: 1rem;
+       }
+      
+       .Grid-wrapper2 img {
+         
+         box-shadow: 5px 10px 10px 5px;;
+         display: block;
+         width: 100%;
+         margin-top: 1.25rem;
+          }
+          
    @media (max-width:70rem) {
     .Grid-wrapper > div {
       columns: 2;

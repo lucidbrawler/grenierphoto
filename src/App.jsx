@@ -9,6 +9,7 @@ import EagleGallery from './pages/EagleGallery.jsx';
 import SyracuseGallery from './pages/SyracuseGallery.jsx';
 import SeascapesGallery from './pages/SeascapesGallery.jsx';
 import WildlifeGallery from './pages/WildlifeGallery.jsx';
+import GallerySlider from './components/ImageSlider.jsx';
 function App() {
   
   return(
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/SyracuseGallery" element={<SyracuseGallery />}  />
         <Route exact path="/SeascapesGallery" element={<SeascapesGallery />}  />
         <Route exact path="/WildlifeGallery" element={<WildlifeGallery />}  />
+        <Route exact path="/GallerySlider" element={<GallerySlider />}  />
         </Route>
       </Routes>
     </Router>
