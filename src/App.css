@@ -11,12 +11,51 @@ h1{
   font-size: 6vw;
   
 }
-.button{
+.button1{
+  left: 1.5rem;
+  background-color: transparent;
+  position: absolute;
   margin: 1rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: grey;
 font-weight: 900;
-  box-shadow: 5px 5px 7px 0px;;
+
+  border-radius: .5rem;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  width: 6rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+align-items: center;
+  height: 2rem;
+}
+.button2{
+  right: 1.5rem;
+  background-color: transparent;
+  position: absolute;
+  margin: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: grey;
+font-weight: 900;
+  border-radius: .5rem;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  width: 6rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+align-items: center;
+  height: 2rem;
+}
+.button{
+  right: 1.5rem;
+  background-color: transparent;
+
+  margin: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: grey;
+font-weight: 900;
   border-radius: .5rem;
   margin-right: .5rem;
   margin-left: .5rem;

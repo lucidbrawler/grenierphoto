@@ -7,13 +7,13 @@ const ImageSlider = () => {
   return (
     <div>
     <div className='archives'>
-        <button className='button'>prev</button>
+        <button className='button1'>prev</button>
     <Nav.Link className='' href='https://buy.stripe.com/dR6dTrdDraohaQgaEI'>
    
     <img className='archives1' src={GreatEagle}/>
    
     </Nav.Link>
-    <button  className='button'>next</button>
+    <button  className='button2'>next</button>
     </div>
     <section className='printOptions'>
     
