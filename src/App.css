@@ -7,7 +7,7 @@
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
   }
 h1{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium';
   font-size: 6vw;
   
 }
@@ -16,7 +16,7 @@ h1{
   background-color: transparent;
   position: absolute;
   margin: 1rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium';
 color: grey;
 font-weight: 900;
 
@@ -35,7 +35,7 @@ align-items: center;
   background-color: transparent;
   position: absolute;
   margin: 1rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium';
 color: grey;
 font-weight: 900;
   border-radius: .5rem;
@@ -48,12 +48,21 @@ font-weight: 900;
 align-items: center;
   height: 2rem;
 }
+.buybutton{
+  margin: 1rem;
+  font-family: 'Franklin Gothic Medium';
+color: rgb(5, 4, 4);
+font-weight: 900;
+  border-radius: .5rem;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  width: 10rem;
+}
 .button{
   right: 1.5rem;
   background-color: transparent;
-
   margin: 1rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium';
 color: grey;
 font-weight: 900;
   border-radius: .5rem;

@@ -43,6 +43,9 @@ const ImageSlider = () => {
       </select>
  
       </section>
+      <section className='archives'>
+      <button className='buybutton'>Buy Photo Now</button>
+      </section>
 </div>
   )
 }
