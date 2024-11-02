@@ -17,7 +17,7 @@ const ImageSlider = () => {
     </div>
     <section className='printOptions'>
     
-     <select onChange={(event) => {
+     <select className='button' onChange={(event) => {
         setMeasurement1(event.target.value);
       }}>
         <option value="Cups">paper</option>
@@ -25,7 +25,7 @@ const ImageSlider = () => {
         <option value="fluid oz">framed</option>
        
       </select>
-      <select onChange={(event) => {
+      <select className='button' onChange={(event) => {
         setMeasurement1(event.target.value);
       }}>
         <option value="Cups">8x16</option>
@@ -33,7 +33,7 @@ const ImageSlider = () => {
         <option value="fluid oz">18x58</option>
        
       </select>
-      <select onChange={(event) => {
+      <select className='button' onChange={(event) => {
         setMeasurement1(event.target.value);
       }}>
         <option value="Cups">option 1</option>
