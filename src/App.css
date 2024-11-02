@@ -12,7 +12,7 @@ h1{
   
 }
 .button1{
-  left: 3.3rem;
+  left: 2.5rem;
   background-color: transparent;
   position: absolute;
   margin: 1rem;
@@ -31,7 +31,7 @@ align-items: center;
   height: 2rem;
 }
 .button2{
-  right: 3.3rem;
+  right: 2.5rem;
   background-color: transparent;
   position: absolute;
   margin: 1rem;
