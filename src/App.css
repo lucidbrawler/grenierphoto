@@ -82,7 +82,15 @@ align-items: center;
   margin-top: 1rem;
 }
 .archives{
-  margin-top: 3rem;
+  margin-top: 6rem;
+  height: screen;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.archives3{
   height: screen;
   align-items: center;
   text-align: center;

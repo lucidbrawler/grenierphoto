@@ -40,7 +40,7 @@ const Eagleone = () => {
       </select>
  
       </section>
-      <section className='archives'>
+      <section className='archives3'>
         <a href={buylink}>
       <button className='buybutton'>Go to Checkout</button>
       </a>
