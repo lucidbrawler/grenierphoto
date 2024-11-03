@@ -1,17 +1,17 @@
-
-import React from 'react'
+import React, { useState } from 'react'
 import {Nav } from 'react-bootstrap';
 
 import Eagle6 from '../../jodyimages/eagles/eaglefish3.jpeg';
 
 const Eaglesix = () => {
+  const [buylink, setBuylink] = useState('')
   return (
     <div>
     <div className='archives'>
     <a href='/Eagle5'>
         <button className='button1'>prev</button>
         </a>
-    <Nav.Link className='' href='https://buy.stripe.com/dR6dTrdDraohaQgaEI'>
+    <Nav.Link className='' >
    
     <img className='archives1' src={Eagle6}/>
    
@@ -23,7 +23,7 @@ const Eaglesix = () => {
     <section className='printOptions'>
     
     <select className='button' onChange={(event) => {
-        setMeasurement1(event.target.value);
+        setBuylink(event.target.value);
       }}>
          <option value="Cups"> paper: 8x16</option>
         <option value="Cup">paper: 12x36</option>
@@ -38,8 +38,10 @@ const Eaglesix = () => {
       </select>
       </section>
       <section className='archives'>
+      <a href={buylink}>
       <button className='buybutton'>Go to Checkout</button>
-      </section>
+      </a>
+            </section>
 </div>
   )
 }
