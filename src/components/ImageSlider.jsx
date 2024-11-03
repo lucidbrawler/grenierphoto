@@ -7,13 +7,17 @@ const ImageSlider = () => {
   return (
     <div>
     <div className='archives'>
+    <a href='/Eagle4'>
         <button className='button1'>prev</button>
+        </a>
     <Nav.Link className='' href='https://buy.stripe.com/dR6dTrdDraohaQgaEI'>
    
     <img className='archives1' src={GreatEagle}/>
    
     </Nav.Link>
+    <a href='/Eagle1'>
     <button  className='button2'>next</button>
+    </a>
     </div>
     <section className='printOptions'>
     

@@ -10,6 +10,14 @@ import SyracuseGallery from './pages/SyracuseGallery.jsx';
 import SeascapesGallery from './pages/SeascapesGallery.jsx';
 import WildlifeGallery from './pages/WildlifeGallery.jsx';
 import GallerySlider from './components/ImageSlider.jsx';
+import Eagle1 from './components/eagleslides/Eagle1.jsx';
+import Eagle2 from './components/eagleslides/Eagle2.jsx';
+import Eagle3 from './components/eagleslides/Eagle3.jsx';
+import Eagle4 from './components/eagleslides/Eagle4.jsx';
+import Eagle5 from './components/eagleslides/Eagle5.jsx';
+import Eagle6 from './components/eagleslides/Eagle6.jsx';
+import Eagle7 from './components/eagleslides/Eagle7.jsx';
+import Eagle8 from './components/eagleslides/Eagle8.jsx';
 function App() {
   
   return(
@@ -24,6 +32,14 @@ function App() {
         <Route exact path="/SeascapesGallery" element={<SeascapesGallery />}  />
         <Route exact path="/WildlifeGallery" element={<WildlifeGallery />}  />
         <Route exact path="/GallerySlider" element={<GallerySlider />}  />
+        <Route exact path="/Eagle1" element={<Eagle1 />}  />
+        <Route exact path="/Eagle2" element={<Eagle2 />}  />
+        <Route exact path="/Eagle3" element={<Eagle3 />}  />
+        <Route exact path="/Eagle4" element={<Eagle4 />}  />
+        <Route exact path="/Eagle5" element={<Eagle5 />}  />
+        <Route exact path="/Eagle6" element={<Eagle6 />}  />
+        <Route exact path="/Eagle7" element={<Eagle7 />}  />
+        <Route exact path="/Eagle8" element={<Eagle8 />}  />
         </Route>
       </Routes>
     </Router>
