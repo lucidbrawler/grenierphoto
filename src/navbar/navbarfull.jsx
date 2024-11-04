@@ -1,5 +1,6 @@
 import React from 'react'
-
+import facebook from '../jodyimages/socials/facebook.svg'
+import instagram from '../jodyimages/socials/instagram.svg'
 const Navbarfull = () => {
 
   
@@ -15,12 +16,12 @@ const Navbarfull = () => {
         <a className='Fullnavlinks' >Seascapes</a>
         <a className='Fullnavlinks' >Contact Me</a>
         
-        <section>
+        <section >
             <a>
-                <img src='{facebook}'/>
+                <img className='socials' src={facebook}/>
             </a>
             <a>
-                <img src='{/*instagram*/}'/>
+                <img className='socials' src={instagram}/>
             </a>
         </section>
     </nav>

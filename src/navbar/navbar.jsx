@@ -1,7 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import facebook from '../jodyimages/socials/facebook.svg'
+import instagram from '../jodyimages/socials/instagram.svg'
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
@@ -34,7 +35,15 @@ function OffcanvasExample() {
                   <a  href={"/SeascapesGallery"}><h3 className='navlinks'>Seascapes</h3></a>
               
                   <a href={"/contactme"}><h3  className="navlinks">Contact Me</h3></a>
-             
+                   
+        <section >
+            <a>
+                <img className='socials' src={facebook}/>
+            </a>
+            <a>
+                <img className='socials' src={instagram}/>
+            </a>
+        </section>
                 </Nav>
                
               </Offcanvas.Body>
