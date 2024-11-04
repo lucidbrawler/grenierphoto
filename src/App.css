@@ -115,6 +115,7 @@ select{margin: 1rem;}
 
 
 .stickytop{
+  display: none;
   background: radial-gradient(
     circle at 24.1% 68.8%,
     rgb(197, 189, 189) 0%,
@@ -293,6 +294,29 @@ color: rgb(255, 255, 255);
     padding: 1rem;
     max-width: 35rem;
   }
+  .navbarfull{
+    display: flex;
+    justify-content: space-around;
+    background: radial-gradient(
+      circle at 24.1% 68.8%,
+      rgb(197, 189, 189) 0%,
+      rgb(126, 120, 120) 99.4%
+     
+  );
+  }
+  .FullnavlinksTitle{
+  font-family: 'Franklin Gothic Medium';
+  color: #000000;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  }
+  .Fullnavlinks{
+    margin-top: .3rem;
+    font-family: 'Franklin Gothic Medium';
+    color: #000000;
+    font-size: 1.5rem;
+  }
   .NavbarTitle{
     font-size: 2rem;
     height: 3rem;
@@ -395,13 +419,28 @@ font-size: 2rem;
   padding: 1rem;
 }
 @media screen and (max-width: 1024px) {
+
+
+.stickytop{
+  display: block;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(197, 189, 189) 0%,
+    rgb(126, 120, 120) 99.4%
+   
+);
+}
   .Galleries{
     line-height: 3rem;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
-  
+  .navbarfull{
+    
+    display: none;
+    justify-content: space-around;
+  }
   .Banner{
     flex-wrap: wrap;
     gap: 3rem;

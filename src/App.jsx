@@ -18,6 +18,7 @@ import Eagle5 from './components/eagleslides/Eagle5.jsx';
 import Eagle6 from './components/eagleslides/Eagle6.jsx';
 import Eagle7 from './components/eagleslides/Eagle7.jsx';
 import Eagle8 from './components/eagleslides/Eagle8.jsx';
+import Navbarfull from './navbar/navbarfull.jsx';
 function App() {
   
   return(
@@ -50,6 +51,7 @@ function App() {
 
 const Home = () => (
   <div>
+    <Navbarfull />
     <OffcanvasExample />
   
       <Outlet />
