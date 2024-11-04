@@ -3,6 +3,7 @@ import headshot from '../jodyimages/faceshot.jpeg';
 import christmasGold from '../lowrezimages/ChristmasGold.jpg'
 import '../App.css';
 import { LuArrowDownSquare } from "react-icons/lu";
+import {Nav } from 'react-bootstrap';
 
 import Collapsible from 'react-collapsible';
 
@@ -30,13 +31,15 @@ const iconarrow =  <LuArrowDownSquare />;
             I was unable to make music or do anything creative. I had a 8 megapixel point and shoot camera, I took that with me 
             on my hikes, and found taking photos could be an excellent outlet for my artistic world. 
            
-        I dove deep into learning everything I could about cameras and composition, I’m still learning. 
-        After years of shooting photographs I found a deep understanding that it’s not only satisfying but hard work.</p>
+          I dove deep into learning everything I could about cameras and composition, I’m still learning. 
+          After years of shooting photographs I found a deep understanding that it’s not only satisfying but hard work.</p>
    
         
             </section>
             <div className='TreeContainer'>
+              <Nav.Link href='https://buy.stripe.com/cN2eWI1SN1Bv4JW3cd'>
             <img className='landscape'  src={christmasGold} alt=''/>
+            </Nav.Link>
             </div>
     </div>
     </div>
