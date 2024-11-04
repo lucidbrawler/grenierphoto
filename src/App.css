@@ -187,6 +187,8 @@ a{
   margin-top: 3rem;
   }
   .navlinks{
+    
+    font-family: 'Franklin Gothic Medium';
     text-decoration: none;
 color: rgb(255, 255, 255);
   }
@@ -295,8 +297,15 @@ color: rgb(255, 255, 255);
     padding: 1rem;
     max-width: 35rem;
   }
-  .socials{padding: .1rem;}
+  .socials{
+    margin-left: .5rem;
+    border-radius: .5rem;
+    background-color: antiquewhite;
+    height: 2.5rem;
+    padding: .1rem;}
+
   .navbarfull{
+    
     padding: .45rem;
     display: flex;
     justify-content: space-around;
@@ -307,8 +316,35 @@ color: rgb(255, 255, 255);
      
   );
   }
+
+.Underline{
+  position: relative;
+
+}
+.Underline:after {
+    
+  content: '';
+ position: absolute;
+ width: 100%;
+ height: 0.01rem;
+ left: 0;
+ bottom: 0;
+ background:rgb(17, 17, 17);
+}
+.Underlineleft::after{
+  transform: scale(0,1);
+  transition: transform 0.3s ease;
+  transform-origin: 0% 100%;
+}
+.Underlineleft:hover::after{
+  transform: scale(1,1);
+ }
+  .ocheader{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.5rem;
+  }
   .FullnavlinksTitle{
-    margin-top: .3rem;
+    margin-top: 0;
     margin-left:-1rem ;
   font-family: 'Franklin Gothic Medium';
   color: #000000;
@@ -317,7 +353,12 @@ color: rgb(255, 255, 255);
   justify-content: space-between;
   }
   .Fullnavlinks{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4rem;
     margin-top: .3rem;
+
     font-family: 'Franklin Gothic Medium';
     color: #000000;
     font-size: 1.5rem;
@@ -343,11 +384,7 @@ color: rgb(255, 255, 255);
   justify-content: space-around;
   background-color: black;
 }
-.Collapsable{
-text-align: center;
-background-color: bisque;
-font-size: 2rem;
-}
+
 .BannerImg{
     flex: 1 0 ;
     flex-shrink: 0;
@@ -371,6 +408,7 @@ font-size: 2rem;
     rgb(50, 50, 50) 0%,
     rgb(0, 0, 0) 99.4%
 );
+line-height: 5rem;
 
   object-fit: contain;
   width: 100%;

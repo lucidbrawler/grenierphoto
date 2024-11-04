@@ -20,7 +20,7 @@ function OffcanvasExample() {
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
-              <Offcanvas.Header  className='ocheader'  closeButton>
+              <Offcanvas.Header  className='ocheader '  closeButton>
                 Jody Grenier Art
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>    
                 </Offcanvas.Title> 
@@ -34,13 +34,13 @@ function OffcanvasExample() {
                   <a  href={"/Wildlifegallery"}><h3 className='navlinks'>Wildlife</h3></a>
                   <a  href={"/SeascapesGallery"}><h3 className='navlinks'>Seascapes</h3></a>
               
-                  <a href={"/contactme"}><h3  className="navlinks">Contact Me</h3></a>
+                  <a href={"/#contactme"}><h3  className="navlinks">Contact Me</h3></a>
                    
         <section >
-            <a>
+            <a href='https://www.facebook.com/jody.grenier.9/'>
                 <img className='socials' src={facebook}/>
             </a>
-            <a>
+            <a href='https://www.instagram.com/jodyg88/'>
                 <img className='socials' src={instagram}/>
             </a>
         </section>
