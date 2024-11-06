@@ -13,7 +13,7 @@ function OffcanvasExample() {
       { [false].map((expand) => (
         <Navbar key={expand} collapse="sm"  expand={expand} className="mb-3 ">
           <Container  fluid>
-            <Navbar.Brand className='NavbarTitle' href="/">Jody Grenier Art</Navbar.Brand>
+            <Navbar.Brand className='NavbarTitle' href="/"><h2>Jody Grenier Art</h2><p className='tagline'>a symphony of perception</p></Navbar.Brand>
             <Navbar.Toggle  aria-controls={` offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas 
               id={`offcanvasNavbar-expand-${expand}`}

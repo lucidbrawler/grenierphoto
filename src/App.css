@@ -112,17 +112,12 @@ select{margin: 1rem;}
   max-width: 100%;
   object-fit: contain;
  
- width: 20rem;
+  max-width: 50rem;
 }
 
 .stickytop{
   display: none;
-  background: radial-gradient(
-    circle at 24.1% 68.8%,
-    rgb(197, 189, 189) 0%,
-    rgb(126, 120, 120) 99.4%
-   
-);
+
 }
 .galleryimg{
   box-shadow: 5px 10px 10px 5px;;
@@ -309,12 +304,7 @@ color: rgb(255, 255, 255);
     padding: .45rem;
     display: flex;
     justify-content: space-around;
-    background: radial-gradient(
-      circle at 24.1% 68.8%,
-      rgb(197, 189, 189) 0%,
-      rgb(126, 120, 120) 99.4%
-     
-  );
+ 
   }
 
 .Underline{
@@ -349,7 +339,7 @@ color: rgb(255, 255, 255);
   font-family: 'Franklin Gothic Medium';
   color: #000000;
   font-size: 2rem;
-  display: flex;
+  display: block;
   justify-content: space-between;
   }
   .Fullnavlinks{
@@ -364,6 +354,7 @@ color: rgb(255, 255, 255);
     font-size: 1.5rem;
   }
   .NavbarTitle{
+    
     font-size: 2rem;
     height: 3rem;
     font-family: Bona Nova SC;
@@ -461,17 +452,18 @@ line-height: 5rem;
   font-size: 2rem;
   padding: 1rem;
 }
+.tagline{
+  border-top-width: .15rem;
+    border-top-style: dotted;
+  margin-left: 2rem;
+  font-size: .9rem;
+}
 @media screen and (max-width: 1024px) {
 
 
 .stickytop{
   display: block;
-  background: radial-gradient(
-    circle at 24.1% 68.8%,
-    rgb(197, 189, 189) 0%,
-    rgb(126, 120, 120) 99.4%
-   
-);
+
 }
   .Galleries{
     line-height: 3rem;

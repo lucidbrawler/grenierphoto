@@ -8,7 +8,7 @@ const Navbarfull = () => {
   return (
     <nav className='navbarfull'>
         
-        <a className='FullnavlinksTitle' href={"/"}>Jody Grenier Art</a>
+        <a className='FullnavlinksTitle' href={"/"}><h2>Jody Grenier Art</h2><p className='tagline'>a symphony of perception</p></a>
        
         <a className='Fullnavlinks' href={"/eaglegallery"} ><p className='Underline Underlineleft'>Eagles</p></a>
         <a className='Fullnavlinks' href={"/SyracuseGallery"}><p className='Underline Underlineleft'>Syracuse</p></a>
