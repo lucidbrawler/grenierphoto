@@ -111,9 +111,30 @@ select{margin: 1rem;}
   box-shadow: 5px 10px 10px 5px;;
   max-width: 100%;
   object-fit: contain;
- 
   max-width: 50rem;
 }
+@media (max-width:50rem) {
+  .archives1{
+    box-shadow: 5px 10px 10px 5px;;
+    max-width: 100%;
+    object-fit: contain;
+    max-width: 27rem;
+  }
+ }  
+ @media (max-width:25rem) {
+  .archives1{
+    box-shadow: 5px 10px 10px 5px;;
+    max-width: 100%;
+    object-fit: contain;
+    max-width: 20rem;
+  }
+ } 
+ @media (max-width:32rem) {
+  .Grid-wrapper > div {
+    columns: 1;
+     gap: 1.5rem;
+     }
+ }  
 
 .stickytop{
   display: none;
