@@ -351,6 +351,8 @@ color: rgb(255, 255, 255);
   transform: scale(1,1);
  }
   .ocheader{
+    
+    display: block;
     font-family: 'Franklin Gothic Medium';
     font-size: 1.5rem;
   }
@@ -474,10 +476,14 @@ line-height: 5rem;
   padding: 1rem;
 }
 .tagline{
+  max-width: 10rem;
   border-top-width: .15rem;
     border-top-style: dotted;
   margin-left: 2rem;
   font-size: .9rem;
+}
+Offcanvas.Header{
+  margin-top: -2rem;
 }
 @media screen and (max-width: 1024px) {
 

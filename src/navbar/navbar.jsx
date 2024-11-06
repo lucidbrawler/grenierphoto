@@ -20,9 +20,10 @@ function OffcanvasExample() {
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
-              <Offcanvas.Header  className='ocheader '  closeButton>
-                Jody Grenier Art
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>    
+              <Offcanvas.Header   closeButton>
+              <Offcanvas.Title  className='ocheader ' id={`offcanvasNavbarLabel-expand-${expand}`}>  
+              <h2>Jody Grenier Art</h2><p className='tagline'>a symphony of perception</p>
+                  
                 </Offcanvas.Title> 
               </Offcanvas.Header>
               <Offcanvas.Body className='backgroundimage'>
