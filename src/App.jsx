@@ -19,6 +19,7 @@ import Eagle6 from './components/eagleslides/Eagle6.jsx';
 import Eagle7 from './components/eagleslides/Eagle7.jsx';
 import Eagle8 from './components/eagleslides/Eagle8.jsx';
 import Navbarfull from './navbar/navbarfull.jsx';
+import Syracuse1 from './components/syracuseslides/Syracuse1.jsx';
 function App() {
   
   return(
@@ -41,6 +42,7 @@ function App() {
         <Route exact path="/Eagle6" element={<Eagle6 />}  />
         <Route exact path="/Eagle7" element={<Eagle7 />}  />
         <Route exact path="/Eagle8" element={<Eagle8 />}  />
+        <Route exact path="/Syracuse1" element={<Syracuse1 />}  />
         </Route>
       </Routes>
     </Router>

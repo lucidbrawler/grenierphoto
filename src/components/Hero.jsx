@@ -37,7 +37,7 @@ const iconarrow =  <LuArrowDownSquare />;
         
             </section>
             <div className='TreeContainer'>
-              <Nav.Link href='https://buy.stripe.com/cN2eWI1SN1Bv4JW3cd'>
+              <Nav.Link href='/Syracuse1'>
             <img className='landscape'  src={christmasGold} alt=''/>
             </Nav.Link>
             </div>
