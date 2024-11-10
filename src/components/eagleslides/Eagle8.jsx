@@ -17,7 +17,7 @@ const Eagleeight = () => {
     <img className='archives1' src={Eagle8}/>
    
     </Nav.Link>
-    <a href='/Eagle1'>
+    <a href='/Syracuse1'>
     <button  className='button2'>next</button>
     </a>
     </div>

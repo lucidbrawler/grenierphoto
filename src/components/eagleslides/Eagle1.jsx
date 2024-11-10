@@ -10,7 +10,7 @@ const Eagleone = () => {
   return (
     <div>
     <div className='archives'>
-    <a href='/Eagle4'>
+    <a href='/Syracuse1'>
         <button className='button1'>prev</button>
         </a>
     <Nav.Link className='' >

@@ -10,7 +10,7 @@ const Syracuseone = () => {
   return (
     <div>
     <div className='archives'>
-    <a href='/Eagle4'>
+    <a href='/Eagle8'>
         <button className='button1'>prev</button>
         </a>
     <Nav.Link className='' >
@@ -18,7 +18,7 @@ const Syracuseone = () => {
     <img className='archives1' src={Syracuse1}/>
    
     </Nav.Link>
-    <a href='/Eagle2'>
+    <a href='/Eagle1'>
     <button  className='button2'>next</button>
     </a>
     </div>
