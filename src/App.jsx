@@ -20,6 +20,11 @@ import Eagle7 from './components/eagleslides/Eagle7.jsx';
 import Eagle8 from './components/eagleslides/Eagle8.jsx';
 import Navbarfull from './navbar/navbarfull.jsx';
 import Syracuse1 from './components/syracuseslides/Syracuse1.jsx';
+import Syracuse2 from './components/syracuseslides/Syracuse2.jsx';
+import Syracuse3 from './components/syracuseslides/Syracuse3.jsx';
+import Syracuse4 from './components/syracuseslides/Syracuse4.jsx';
+import Syracuse5 from './components/syracuseslides/Syracuse5.jsx';
+import Syracuse6 from './components/syracuseslides/Syracuse6.jsx';
 function App() {
   
   return(
@@ -43,6 +48,11 @@ function App() {
         <Route exact path="/Eagle7" element={<Eagle7 />}  />
         <Route exact path="/Eagle8" element={<Eagle8 />}  />
         <Route exact path="/Syracuse1" element={<Syracuse1 />}  />
+        <Route exact path="/Syracuse2" element={<Syracuse2 />}  />
+        <Route exact path="/Syracuse3" element={<Syracuse3 />}  />
+        <Route exact path="/Syracuse4" element={<Syracuse4 />}  />
+        <Route exact path="/Syracuse5" element={<Syracuse5 />}  />
+        <Route exact path="/Syracuse6" element={<Syracuse6 />}  />
         </Route>
       </Routes>
     </Router>

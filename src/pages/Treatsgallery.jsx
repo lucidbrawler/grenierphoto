@@ -1,17 +1,17 @@
 import React from 'react'
 
 import {Nav } from 'react-bootstrap';
-import Cuse1 from '../jodyimages/syracuse/clinton1.jpeg';
-import Cuse2 from '../jodyimages/syracuse/clinton2.jpg';
-import Cuse3 from '../jodyimages/syracuse/reddress2.jpg';
-import Cuse4 from '../jodyimages/syracuse/syracuse1.jpeg';
-import Cuse5 from '../jodyimages/syracuse/christmasGold.jpg';
-import Cuse6 from '../jodyimages/syracuse/greatcityshotcopy.jpg';
-import GreatEagle from '../jodyimages/eagles/eagle1.jpeg';
-import Eagle2 from '../jodyimages/eagles/eaglefish3.jpeg';
-import Eagle3 from '../jodyimages/eagles/eagle2.jpeg';
-import Eagle4 from '../jodyimages/eagles/eaglesfish2.jpeg';
-import Eagle5 from '../jodyimages/eagles/eaglefish2.jpeg';
+import Cuse1 from '../jodyimages/syracuse/christmasGold.jpg';
+import Cuse2 from '../jodyimages/syracuse/syracuse2.jpeg';
+import Cuse3 from '../jodyimages/syracuse/syracuse3.jpg';
+import Cuse4 from '../jodyimages/syracuse/syracuse4.jpg';
+import Cuse5 from '../jodyimages/syracuse/syracuse5.jpeg';
+import Cuse6 from '../jodyimages/syracuse/syracuse6.jpg';
+import Eagle1 from '../jodyimages/eagles/eagle1.jpeg';
+import Eagle2 from '../jodyimages/eagles/eagle2.jpeg';
+import Eagle3 from '../jodyimages/eagles/eagle3.jpg';
+import Eagle4 from '../jodyimages/eagles/eagle7.jpeg';
+import Eagle5 from '../jodyimages/eagles/eagle5.jpeg';
 import Eagle6 from '../jodyimages/eagles/eagle3.jpg';
 import Eagle7 from '../jodyimages/eagles/eaglewithfish.jpg';
 import Wildlife1 from '../jodyimages/wildlife/goodfox.jpg';
@@ -25,35 +25,35 @@ const Treatsgallery = () => {
    
     <div >
    
-        <Nav.Link href='https://buy.stripe.com/dR6dTrdDraohaQgaEI'>
-        <img  src={GreatEagle}/>
+        <Nav.Link href='/Eagle1'>
+        <img  src={Eagle1}/>
         </Nav.Link>
-        <Nav.Link>
+        <Nav.Link href='/Syracuse4'>
         <img  src={Cuse4}/>
         </Nav.Link>
         
-        <Nav.Link>
+        <Nav.Link href='/Eagle7'>
         <img  src={Eagle7}/>
         </Nav.Link>
-        <Nav.Link>
+        <Nav.Link href='/Seascape1'>
         <img  src={Seascape1}/>
         </Nav.Link>
       
-        <Nav.Link>
+        <Nav.Link href='/Eagle2'>
         <img  src={Eagle2}/>
         </Nav.Link>
-        <Nav.Link>
+        <Nav.Link href='/Wildlife1'>
         <img  src={Wildlife1}/>
         </Nav.Link>
       
         
-        <Nav.Link>
+        <Nav.Link href='/Eagle3'>
         <img  src={Eagle3}/>
         </Nav.Link>
-        <Nav.Link>
+        <Nav.Link href='/Syracuse2'>
         <img  src={Cuse2}/>
         </Nav.Link>
-        <Nav.Link>
+        <Nav.Link href='/Eagle4'>
         <img  src={Eagle4}/>
         </Nav.Link>
        
@@ -62,33 +62,33 @@ const Treatsgallery = () => {
       
       
     
-        <Nav.Link>
+        <Nav.Link href='/Syracuse3'>
         <img  src={Cuse3}/>
         </Nav.Link>
     
-        <Nav.Link>
+        <Nav.Link href='/Syracuse5'>
         <img  src={Cuse5}/>
         </Nav.Link>
-        <Nav.Link>
+        <Nav.Link href='/Eagle5'>
         <img  src={Eagle5}/>
         </Nav.Link>
-        <Nav.Link>
+        <Nav.Link href='/Syracuse6'>
         <img  src={Cuse6}/>
         </Nav.Link>
-        <Nav.Link>
+        <Nav.Link href='/Wildlife2'>
         <img  src={Wildlife2}/>
         </Nav.Link>
        
       
-        <Nav.Link>
+        <Nav.Link  href='/Eagle6'>
         <img  src={Eagle6}/>
         </Nav.Link>
         
       
-        <Nav.Link>
+        <Nav.Link  href='/Seascape2'>
         <img  src={Seascape2}/>
         </Nav.Link>
-        <Nav.Link>
+        <Nav.Link  href='/Syracuse1'>
         <img  src={Cuse1}/>
         </Nav.Link>
        

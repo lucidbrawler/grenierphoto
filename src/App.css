@@ -35,6 +35,7 @@ align-items: center;
 }
 .button2{
   font-size: 1rem;
+
   right: 1rem;
   background-color: transparent;
   position: absolute;

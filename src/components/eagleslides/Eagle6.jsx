@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Nav } from 'react-bootstrap';
 
-import Eagle6 from '../../jodyimages/eagles/eaglefish3.jpeg';
+import Eagle6 from '../../jodyimages/eagles/eagle6.jpeg';
 
 const Eaglesix = () => {
   const [buylink, setBuylink] = useState('')

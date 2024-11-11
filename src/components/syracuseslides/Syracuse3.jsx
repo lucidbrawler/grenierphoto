@@ -1,24 +1,23 @@
-
 import React, { useState } from 'react'
 import {Nav } from 'react-bootstrap';
 
-import Syracuse1 from '../../jodyimages/syracuse/christmasGold.jpg';
+import Syracuse3 from '../../jodyimages/syracuse/syracuse3.jpg';
 
-const Syracuseone = () => {
+const Syracusethree = () => {
 
   const [buylink, setBuylink] = useState('')
   return (
     <div>
     <div className='archives'>
-    <a href='/Eagle8'>
+    <a href='/Syracuse2'>
         <button className='button1'>prev</button>
         </a>
     <Nav.Link className='' >
    
-    <img className='archives1' src={Syracuse1}/>
+    <img className='archives1' src={Syracuse3}/>
    
     </Nav.Link>
-    <a href='/Syracuse2'>
+    <a href='/Syracuse4'>
     <button  className='button2'>next</button>
     </a>
     </div>
@@ -45,4 +44,4 @@ const Syracuseone = () => {
   )
 }
 
-export default Syracuseone
+export default Syracusethree
