@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import {Nav } from 'react-bootstrap';
 
 import Eagle1 from '../../jodyimages/eagles/eagle1.jpeg';
-
+import Wallart from'../../jodyimages/eagles/wallart/greenroomcrop.png';
 const Eagleone = () => {
 
   const [buylink, setBuylink] = useState('')
@@ -21,6 +21,10 @@ const Eagleone = () => {
     <a href='/Eagle2'>
     <button  className='button2'>next</button>
     </a>
+    
+    </div>
+    <div className='archives'>
+    <img className='archives1' src={Wallart}/>
     </div>
     <section className='printOptions'>
     
