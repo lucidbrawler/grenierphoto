@@ -5,7 +5,7 @@ import {Nav} from 'react-bootstrap';
 import Eagle7 from '../../jodyimages/eagles/eagle7.jpeg';
 
 const Eagleseven = () => {
-  const [buylink, setBuylink] = useState('')
+  const [buylink, setBuylink] = useState('https://buy.stripe.com/8wMdSE40V4NH4JW4gG')
   return (
     <div>
     <div className='archives'>
@@ -27,15 +27,15 @@ const Eagleseven = () => {
       <select className='button' onChange={(event) => {
         setBuylink(event.target.value);
       }}>
-         <option value="Cups">paper: 8x16</option>
-        <option value="Cup">paper: 12x36</option>
-        <option value="fluid oz">paper: 18x58</option>
-        <option value="Cups">metal: 8x16</option>
-        <option value="Cup">metal: 12x36</option>
-        <option value="fluid oz">metal: 18x58</option>
-        <option value="Cups">framed: 8x16</option>
-        <option value="Cup">framed: 12x36</option>
-        <option value="fluid oz">framed: 18x58</option>
+        <option value="https://buy.stripe.com/8wMdSE40V4NH4JW4gG">Giclee-print: 8x12</option>
+        <option value="https://buy.stripe.com/3csbKw7d72Fz3FS9B1">Giclee-print: 11x14</option>
+        <option value="https://buy.stripe.com/8wM8ykfJD4NHa4gfZq">Giclee-print: 12x18</option>
+        <option value="https://buy.stripe.com/aEUdSEeFz4NH4JW00v">Giclee-print: 16x24</option>
+        <option value="https://buy.stripe.com/3csdSE7d75RL7W800t">Giclee-print: 20x30</option>
+        <option value="https://buy.stripe.com/8wM8ykfJD4NHa4gfZq">Giclee-print: 24x36</option>
+       
+
+       
        
       </select>
 

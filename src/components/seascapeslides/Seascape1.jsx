@@ -6,7 +6,7 @@ import Seascape1 from '../../jodyimages/seascapes/Seascape1.jpg';
 
 const Seascapeone = () => {
 
-  const [buylink, setBuylink] = useState('')
+  const [buylink, setBuylink] = useState('https://buy.stripe.com/00g9CogNH0xrekweV4')
   return (
     <div>
     <div className='archives'>
@@ -27,10 +27,10 @@ const Seascapeone = () => {
     <select className='button' onChange={(event) => {
         setBuylink(event.target.value);
       }}>
-         <option value="https://buy.stripe.com/cN2eWI1SN1Bv4JW3cd"> Giclee-print: 8x10</option>
-        <option value="https://buy.stripe.com/eVa29W2WReoh3FS3ce"> Giclee-print: 11x14</option>
-        <option value="https://buy.stripe.com/8wMeWI1SN7ZT2BObIL"> Giclee-print: 16x20</option>
-        <option value="https://buy.stripe.com/28o15SfJD3JD0tG004"> Giclee-print: 20x30</option>
+         <option value="https://buy.stripe.com/00g9CogNH0xrekweV4">Giclee-print: 8x12</option>
+        <option value="https://buy.stripe.com/bIY29W9lf6VP2BO00b">Giclee-print: 12x18</option>
+        <option value="https://buy.stripe.com/cN26qc40V93X7W8aEQ">Giclee-print: 16x24</option>
+        <option value="https://buy.stripe.com/14keWI2WRa813FS6oB">Giclee-print: 20x40</option>
    
        
       </select>
