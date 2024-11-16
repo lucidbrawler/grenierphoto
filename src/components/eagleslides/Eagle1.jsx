@@ -10,7 +10,7 @@ const Eagleone = () => {
   return (
     <div>
     <div className='archives'>
-    <a href='/Syracuse6'>
+    <a href='/Seascape2'>
         <button className='button1'>prev</button>
         </a>
     <Nav.Link className='' >
