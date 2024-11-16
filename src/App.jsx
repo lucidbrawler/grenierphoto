@@ -25,6 +25,10 @@ import Syracuse3 from './components/syracuseslides/Syracuse3.jsx';
 import Syracuse4 from './components/syracuseslides/Syracuse4.jsx';
 import Syracuse5 from './components/syracuseslides/Syracuse5.jsx';
 import Syracuse6 from './components/syracuseslides/Syracuse6.jsx';
+import Wildlife1 from './components/wildlifeslides/Wildlife1.jsx';
+import Wildlife2 from './components/wildlifeslides/Wildlife2.jsx';
+import Seascape1 from './components/seascapeslides/Seascape1.jsx';
+import Seascape2 from './components/seascapeslides/Seascape2.jsx';
 function App() {
   
   return(
@@ -53,6 +57,10 @@ function App() {
         <Route exact path="/Syracuse4" element={<Syracuse4 />}  />
         <Route exact path="/Syracuse5" element={<Syracuse5 />}  />
         <Route exact path="/Syracuse6" element={<Syracuse6 />}  />
+        <Route exact path="/Wildlife1" element={<Wildlife1 />}  />
+        <Route exact path="/Wildlife2" element={<Wildlife2 />}  />
+        <Route exact path="/Seascape1" element={<Seascape1 />}  />
+        <Route exact path="/Seascape2" element={<Seascape2 />}  />
         </Route>
       </Routes>
     </Router>

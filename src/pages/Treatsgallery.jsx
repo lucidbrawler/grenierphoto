@@ -12,12 +12,13 @@ import Eagle2 from '../jodyimages/eagles/eagle2.jpeg';
 import Eagle3 from '../jodyimages/eagles/eagle3.jpg';
 import Eagle4 from '../jodyimages/eagles/eagle4.jpg';
 import Eagle5 from '../jodyimages/eagles/eagle5.jpeg';
-import Eagle6 from '../jodyimages/eagles/eagle3.jpg';
+import Eagle6 from '../jodyimages/eagles/eagle6.jpeg';
 import Eagle7 from '../jodyimages/eagles/eagle7.jpeg';
-import Wildlife1 from '../jodyimages/wildlife/goodfox.jpg';
-import Wildlife2 from '../jodyimages/wildlife/foxtounge.jpeg';
-import Seascape1 from '../jodyimages/seascapes/GodsCanvas.jpg';
-import Seascape2 from '../jodyimages/seascapes/seascape.jpeg';
+import Eagle8 from '../jodyimages/eagles/eagle8.jpg';
+import Wildlife2 from '../jodyimages/wildlife/wildlife2.jpg';
+import Wildlife1 from '../jodyimages/wildlife/wildlife1.jpeg';
+import Seascape1 from '../jodyimages/seascapes/Seascape1.jpg';
+import Seascape2 from '../jodyimages/seascapes/Seascape2.jpeg';
 const Treatsgallery = () => {
   return (
     <div className='Grid-treats'>
@@ -55,6 +56,11 @@ const Treatsgallery = () => {
         </Nav.Link>
         <Nav.Link href='/Eagle4'>
         <img  src={Eagle4}/>
+        </Nav.Link>
+       
+      
+        <Nav.Link href='/Eagle8'>
+        <img  src={Eagle8}/>
         </Nav.Link>
        
       

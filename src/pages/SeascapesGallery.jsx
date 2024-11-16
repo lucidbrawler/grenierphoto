@@ -1,19 +1,19 @@
 import React from 'react'
 import {Nav } from 'react-bootstrap';
-import Seascape1 from '../jodyimages/seascapes/GodsCanvas.jpg';
-import Seascape2 from '../jodyimages/seascapes/seascape.jpeg';
+import Seascape1 from '../jodyimages/seascapes/Seascape1.jpg';
+import Seascape2 from '../jodyimages/seascapes/Seascape2.jpeg';
 const SeascapesGallery = () => {
   return (
     <div className='Grid-wrapper'>
        
    
     <div >
-    <Nav.Link>
-        <img className='' src={Seascape1}/>
+        <Nav.Link href='/Seascape1'>
+          <img className='' src={Seascape1}/>
         </Nav.Link>
       
-        <Nav.Link>
-        <img className='' src={Seascape2}/>
+        <Nav.Link href='/Seascape2'>
+          <img className='' src={Seascape2}/>
         </Nav.Link>
     
     </div>

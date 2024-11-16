@@ -197,11 +197,11 @@ a{
     margin-bottom: 1rem;
     padding: 1rem;
     margin-left: 15px;
-   object-fit: scale-down;
+    object-fit: scale-down;
     border-radius: 50%;
-  max-width:  15rem;
-  max-height: 15rem;  
-  margin-top: 3rem;
+    max-width:  15rem;
+    max-height: 15rem;  
+    margin-top: 3rem;
   }
   .navlinks{
     
@@ -308,8 +308,8 @@ color: rgb(255, 255, 255);
     background-color: rgb(204, 216, 216);
    max-width: 100%;
     position: relative;
-   
   }
+
   .TreeContainer{
     padding: 1rem;
     max-width: 35rem;
@@ -322,11 +322,9 @@ color: rgb(255, 255, 255);
     padding: .1rem;}
 
   .navbarfull{
-    
     padding: .45rem;
     display: flex;
     justify-content: space-around;
- 
   }
 
 .Underline{
