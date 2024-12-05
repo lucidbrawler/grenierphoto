@@ -3,7 +3,7 @@ import headshot from '../jodyimages/faceshot.jpeg';
 import christmasGold from '../lowrezimages/ChristmasGold.jpg'
 import '../App.css';
 import { LuArrowDownSquare } from "react-icons/lu";
-import {Nav } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
 
 import Collapsible from 'react-collapsible';
 
