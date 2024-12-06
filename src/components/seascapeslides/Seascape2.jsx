@@ -3,19 +3,28 @@ import React, { useState } from 'react'
 import {Nav } from 'react-bootstrap';
 
 import Seascape2 from '../../jodyimages/seascapes/Seascape2.jpeg';
-
+import Wallart from '../../jodyimages/seascapes/wallart/wallartSeascape2.jpg';
 const Syracuseone = () => {
+  var [imgsrc, setImgsrc] = useState(`${Seascape2}`)
 
+const Cycleimgsrc = () => {
+if(imgsrc==Seascape2){
+  setImgsrc(`${Wallart}`)
+}
+else if(imgsrc==Wallart){
+  setImgsrc(`${Seascape2}`)
+}
+}
   const [buylink, setBuylink] = useState('')
   return (
     <div>
     <div className='archives'>
-    <a href='/Seascapes1'>
-        <button className='button1'>prev</button>
+        <a href='/Seascapes1'>
+          <button className='button1'>prev</button>
         </a>
-    <Nav.Link className='' >
+    <Nav.Link onClick={()=>Cycleimgsrc()} className='' >
    
-    <img className='archives1' src={Seascape2}/>
+      <img className='archives1' src={imgsrc}/>
    
     </Nav.Link>
     <a href='/Eagle1'>

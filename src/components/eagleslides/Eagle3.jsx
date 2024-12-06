@@ -2,8 +2,18 @@ import React, { useState } from 'react'
 import {Nav } from 'react-bootstrap';
 
 import Eagle3 from '../../jodyimages/eagles/eagle3.jpg';
-
+import Wallart from '../../jodyimages/eagles/wallart/wallartEagle3.jpg';
 const Eaglethree = () => {
+  var [imgsrc, setImgsrc] = useState(`${Eagle3}`)
+
+const Cycleimgsrc = () => {
+if(imgsrc==Eagle3){
+  setImgsrc(`${Wallart}`)
+}
+else if(imgsrc==Wallart){
+  setImgsrc(`${Eagle3}`)
+}
+}
   const [buylink, setBuylink] = useState('https://buy.stripe.com/6oEg0M7d74NH5O014i')
   return (
     <div>
@@ -11,11 +21,11 @@ const Eaglethree = () => {
     <a href='/Eagle2'>
         <button className='button1'>prev</button>
         </a>
-    <Nav.Link className='' >
+    <Nav.Link onClick={()=>Cycleimgsrc()} className='' >
    
-    <img className='archives1' src={Eagle3}/>
+    <img className='archives1' src={imgsrc}/>
    
-    </Nav.Link>
+    </Nav.Link >
     <a href='/Eagle4'>
     <button  className='button2'>next</button>
     </a>
