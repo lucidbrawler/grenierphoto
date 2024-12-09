@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Nav } from 'react-bootstrap';
 
 import Eagle1 from '../../jodyimages/eagles/eagle1.jpeg';
-import Wallart from '../../jodyimages/eagles/wallart/greenroomcrop.png';
+import Wallart from '../../jodyimages/eagles/wallart/wallartEagle1.jpg';
 const Eagleone = () => {
 
   var [imgsrc, setImgsrc] = useState(`${Eagle1}`)

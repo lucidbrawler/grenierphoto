@@ -2,18 +2,28 @@ import React, { useState } from 'react'
 import {Nav } from 'react-bootstrap';
 
 import Eagle6 from '../../jodyimages/eagles/eagle6.jpeg';
-
+import Wallart from '../../jodyimages/eagles/wallart/wallartEagle6.jpg'
 const Eaglesix = () => {
+  
+  var [imgsrc, setImgsrc] = useState(`${Eagle6}`)
   const [buylink, setBuylink] = useState('')
+const Cycleimgsrc = () => {
+if(imgsrc==Eagle6){
+  setImgsrc(`${Wallart}`)
+}
+else if(imgsrc==Wallart){
+  setImgsrc(`${Eagle6}`)
+}
+}
   return (
     <div>
     <div className='archives'>
     <a href='/Eagle5'>
         <button className='button1'>prev</button>
         </a>
-    <Nav.Link className='' >
+    <Nav.Link onClick={()=>Cycleimgsrc()} className='' >
    
-    <img className='archives1' src={Eagle6}/>
+    <img className='archives1' src={imgsrc}/>
    
     </Nav.Link>
     <a href='/Eagle7'>
