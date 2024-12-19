@@ -9,14 +9,17 @@
   font-family: 'Franklin Gothic Medium';
  }
  .contactinfo>input{
-  border-radius: .5rem;
-  margin: 1rem;
+  margin-left: .5rem;
+  border-width: .1rem;
+  border-radius: .2rem;
+  height: 2.2rem;
  }
 .contact{
   background-color: whitesmoke;
 }
  .MessageBox{
-  margin: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
   border-radius: .5rem;
   width: 70%;
   border-color: rgb(93, 131, 131);
@@ -24,7 +27,8 @@
  }
  .ContactButton{
   border-radius: .5rem;
-  margin: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
  }
  .contactinfoMessage{
   font-size: 1.3rem;
