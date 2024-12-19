@@ -4,6 +4,7 @@ import React from 'react'
 import Hero from '../components/Hero';
 import Banner from '../components/Banner';
 import ContactMe from '../components/ContactMe';
+import ContactForm from '../components/ContactForm';
 
 
 const Landing = () => {
@@ -14,7 +15,8 @@ const Landing = () => {
   
   <Banner/>
  
-  <ContactMe id='contactme' />
+ <ContactForm id='contactme'/>
+  
   
     </div>
    
