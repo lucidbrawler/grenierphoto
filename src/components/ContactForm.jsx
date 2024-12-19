@@ -44,8 +44,10 @@ const ContactForm = () => {
   
       </div>
       <div>
-      <label className="contactinfo" htmlFor="message">Message:</label>
-      <textarea className="MessageBox" id="message" required /><br/>
+        <div>
+      <label className="contactinfoMessage" htmlFor="message">Message:</label>
+      </div>
+      <textarea className="MessageBox" id="message" required ></textarea><br/>
       <button className="ContactButton" type="submit">{status}</button>
       </div>
     </form>
