@@ -35,7 +35,6 @@ function OffcanvasExample() {
                   <a  href={"/Wildlifegallery"}><h3 className='navlinks'>Wildlife</h3></a>
                   <a  href={"/SeascapesGallery"}><h3 className='navlinks'>Seascapes</h3></a>
               
-                  <a href={"/#contactme"}><h3  className="navlinks">Contact Me</h3></a>
                    
         <section >
             <a href='https://www.facebook.com/jody.grenier.9/'>

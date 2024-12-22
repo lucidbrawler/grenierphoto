@@ -535,7 +535,11 @@ Offcanvas.Header{
   margin-top: -2rem;
 }
 @media screen and (max-width: 1024px) {
+  .Underline{ 
+    padding-top: .3rem;
+  }
   .footerfull{
+   
     display: block;
   }
 }
