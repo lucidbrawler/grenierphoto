@@ -29,6 +29,7 @@ import Wildlife1 from './components/wildlifeslides/Wildlife1.jsx';
 import Wildlife2 from './components/wildlifeslides/Wildlife2.jsx';
 import Seascape1 from './components/seascapeslides/Seascape1.jsx';
 import Seascape2 from './components/seascapeslides/Seascape2.jsx';
+import Footer from './components/Footer.jsx';
 function App() {
   
   return(
@@ -75,6 +76,7 @@ const Home = () => (
     <OffcanvasExample />
   
       <Outlet />
+      <Footer/>
   </div>);
 
 export default App

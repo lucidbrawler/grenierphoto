@@ -91,6 +91,9 @@ font-weight: 900;
 align-items: center;
   height: 2rem;
 }
+.footerimg{
+  padding: 1rem;
+}
 .buybutton{
   margin: 1rem;
   font-family: 'Franklin Gothic Medium';
@@ -253,9 +256,16 @@ color: rgb(255, 255, 255);
   }
 /*//////////treats css /////////*/
 .Grid-treats{
+  padding: 3rem;
   margin-top: 1rem;
   text-align: center;
   }
+  .trophy-treats{
+    background-color: grey;
+    padding: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+    }
   .Grid-treats > div {
    margin-top: 1rem;
   columns: 3;
@@ -358,7 +368,11 @@ color: rgb(255, 255, 255);
     background-color: antiquewhite;
     height: 2.5rem;
     padding: .1rem;}
-
+    .footerfull{
+      background-color: rgb(83, 83, 83);
+      display: flex;
+      justify-content: space-around;
+    }
   .navbarfull{
     padding: .45rem;
     display: flex;
@@ -408,7 +422,6 @@ color: rgb(255, 255, 255);
     justify-content: center;
     border-radius: 4rem;
     margin-top: .3rem;
-
     font-family: 'Franklin Gothic Medium';
     color: #000000;
     font-size: 1.5rem;
@@ -536,10 +549,10 @@ Offcanvas.Header{
     align-items: center;
   }
   .navbarfull{
-    
     display: none;
     justify-content: space-around;
   }
+ 
   .Banner{
     flex-wrap: wrap;
     gap: 3rem;
