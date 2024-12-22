@@ -20,8 +20,6 @@ const EagleGallery = () => {
    
         <Nav.Link href='/Eagle1'>
         <img className='' src={Eagle1}/>
-   
-       
         </Nav.Link>
      
       

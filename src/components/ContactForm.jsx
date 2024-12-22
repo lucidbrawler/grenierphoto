@@ -27,7 +27,7 @@ const ContactForm = () => {
   };
  
   return (
-    <div  style={{ display:'flex', justifyContent:''}} className="contact"> 
+    <div id="contactme"  style={{ display:'flex', justifyContent:''}} className="contact"> 
       
 
     <header className="App-header">
