@@ -257,15 +257,12 @@ color: rgb(255, 255, 255);
   }
 /*//////////treats css /////////*/
 .Grid-treats{
-  padding: 1rem;
+  padding: .5rem;
   margin-top: 1rem;
   text-align: center;
   }
   .trophy-treats{
-    background-color: grey;
-    padding: 3rem;
-    margin-top: 1rem;
-    text-align: center;
+   padding: 3rem;
     }
   .Grid-treats > div {
    margin-top: 1rem;

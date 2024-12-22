@@ -12,13 +12,13 @@ import instagram from '../jodyimages/socials/instagram.svg'
 const Footer = () => {
   return (
     <div className=''>
-         <div className='Grid-treats'>
+         <div className='Grid-treats trophy-treats'>
        
    
        <div className=''>
       
            <Nav.Link>
-           <img   className='footerimg' src={ucp1}/>
+           <img   src={ucp1}/>
            </Nav.Link>
            <Nav.Link >
            <img  src={ucp2}/>
