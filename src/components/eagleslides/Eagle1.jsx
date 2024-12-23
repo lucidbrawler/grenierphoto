@@ -43,7 +43,7 @@ else if(imgsrc==Wallart){
           <option value="fluid oz">paper: 18x58</option>
           <option value="Cups">metal: 8x16</option>
           <option value="Cup">metal: 12x36</option>
-          <option value="https://buy.stripe.com/dR6dTrdDraohaQgaEI">metal: 18x58</option>
+          <option value="">metal: 18x58</option>
           <option value="Cups"> framed: 8x16</option>
           <option value="Cup">framed: 12x36</option>
           <option value="fluid oz">framed: 18x58</option>
