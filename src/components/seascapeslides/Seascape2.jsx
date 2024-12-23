@@ -19,7 +19,7 @@ else if(imgsrc==Wallart){
   return (
     <div>
     <div className='archives'>
-        <a href='/Seascapes1'>
+        <a href='/Seascape1'>
           <button className='button1'>prev</button>
         </a>
     <Nav.Link onClick={()=>Cycleimgsrc()} className='' >

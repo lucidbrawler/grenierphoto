@@ -25,6 +25,8 @@ import Syracuse3 from './components/syracuseslides/Syracuse3.jsx';
 import Syracuse4 from './components/syracuseslides/Syracuse4.jsx';
 import Syracuse5 from './components/syracuseslides/Syracuse5.jsx';
 import Syracuse6 from './components/syracuseslides/Syracuse6.jsx';
+import Syracuse7 from './components/syracuseslides/Syracuse7.jsx';
+
 import Wildlife1 from './components/wildlifeslides/Wildlife1.jsx';
 import Wildlife2 from './components/wildlifeslides/Wildlife2.jsx';
 import Seascape1 from './components/seascapeslides/Seascape1.jsx';
@@ -58,6 +60,7 @@ function App() {
         <Route exact path="/Syracuse4" element={<Syracuse4 />}  />
         <Route exact path="/Syracuse5" element={<Syracuse5 />}  />
         <Route exact path="/Syracuse6" element={<Syracuse6 />}  />
+        <Route exact path="/Syracuse7" element={<Syracuse7 />}  />
         <Route exact path="/Wildlife1" element={<Wildlife1 />}  />
         <Route exact path="/Wildlife2" element={<Wildlife2 />}  />
         <Route exact path="/Seascape1" element={<Seascape1 />}  />
@@ -74,7 +77,6 @@ const Home = () => (
   <div>
     <Navbarfull />
     <OffcanvasExample />
-  
       <Outlet />
       <Footer/>
   </div>);

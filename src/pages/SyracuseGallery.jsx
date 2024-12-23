@@ -7,6 +7,7 @@ import Cuse3 from '../jodyimages/syracuse/syracuse3.jpg';
 import Cuse4 from '../jodyimages/syracuse/syracuse4.jpg';
 import Cuse5 from '../jodyimages/syracuse/syracuse5.jpeg';
 import Cuse6 from '../jodyimages/syracuse/syracuse6.jpg';
+import Cuse7 from '../jodyimages/syracuse/syracuse7.jpg';
 const SyracuseGallery = () => {
   return (
     <div className='Grid-wrapper'>
@@ -31,6 +32,9 @@ const SyracuseGallery = () => {
         </Nav.Link>
         <Nav.Link  href='Syracuse6'>
         <img className='' src={Cuse6}/>
+        </Nav.Link>
+        <Nav.Link  href='Syracuse7'>
+        <img className='' src={Cuse7}/>
         </Nav.Link>
     </div>
     </div>
