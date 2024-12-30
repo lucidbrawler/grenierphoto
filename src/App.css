@@ -369,9 +369,26 @@ color: rgb(255, 255, 255);
     padding: .1rem;}
  
     .footerfull{
-      background-color: rgb(83, 83, 83);
+      background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(95, 95, 95) 0%,
+    rgb(82, 82, 82) 99.4%
+);
+      
       display: flex;
       justify-content: space-around;
+    }
+    .footerfull > section{
+      
+     padding-top: .3rem;
+    }
+    .footertagline{
+      font-family: 'Franklin Gothic Medium';
+      padding-left: 1rem;
+    }
+    .footerfullsize{
+      margin-top: .5rem;
+      font-size: 1.2rem;
     }
   .navbarfull{
     padding: .45rem;

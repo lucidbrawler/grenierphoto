@@ -42,16 +42,17 @@ const Footer = () => {
        
        </div>
        </div>
-     
+       <div className='footertagline'>
+       <h2>Jody Grenier Art</h2><p className='tagline'>a symphony of perception</p>
+       </div>
     
     
+    <div className='footerfull '>  
     
-    <div className='footerfull'>  
-    
-    <a className='Fullnavlinks' href={"/eaglegallery"} ><p className='Underline Underlineleft'>Eagles</p></a>
-    <a className='Fullnavlinks' href={"/SyracuseGallery"}><p className='Underline Underlineleft'>Syracuse</p></a>
-    <a className='Fullnavlinks' href={"/Wildlifegallery"}><p className='Underline Underlineleft'>Wildlife</p></a>
-    <a className='Fullnavlinks' href={"/SeascapesGallery"}><p className='Underline Underlineleft'>Seascapes</p></a>
+    <a className='Fullnavlinks ' href={"/eaglegallery"} ><p className='Underline Underlineleft footerfullsize'>Eagles</p></a>
+    <a className='Fullnavlinks' href={"/SyracuseGallery"}><p className='Underline Underlineleft footerfullsize'>Syracuse</p></a>
+    <a className='Fullnavlinks' href={"/Wildlifegallery"}><p className='Underline Underlineleft footerfullsize'>Wildlife</p></a>
+    <a className='Fullnavlinks' href={"/SeascapesGallery"}><p className='Underline Underlineleft footerfullsize'>Seascapes</p></a>
     <section >
             <a href='https://www.facebook.com/jody.grenier.9/'>
                 <img className='socials' src={facebook}/>
